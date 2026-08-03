@@ -1,0 +1,54 @@
+.location {
+  display: flex;
+  justify-content: center;
+}
+
+.location-card {
+  width: 100%;
+  max-width: 520px;
+  background: var(--charcoal);
+  border-radius: 28px;
+  padding: 3.2rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.location-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    repeating-linear-gradient(120deg, rgba(242,183,5,0.05) 0 2px, transparent 2px 34px);
+  pointer-events: none;
+}
+
+.location-card .eyebrow {
+  color: var(--honey-bright);
+}
+
+.location-card h2 {
+  color: var(--cream);
+}
+
+.hex-icon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  background: linear-gradient(155deg, var(--honey-bright), var(--honey));
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  margin-bottom: 0.4rem;
+}
+
+.location-address {
+  color: var(--cream-deep);
+  font-size: 1.05rem;
+  line-height: 1.5;
+}

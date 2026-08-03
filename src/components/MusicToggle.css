@@ -1,0 +1,33 @@
+.music-toggle {
+  position: fixed;
+  bottom: 1.4rem;
+  right: 1.4rem;
+  z-index: 50;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: none;
+  background: var(--charcoal);
+  color: var(--cream);
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(36, 27, 18, 0.35);
+  transition: transform 0.2s ease;
+}
+
+.music-toggle:hover {
+  transform: scale(1.06);
+}
+
+.music-toggle.is-playing {
+  background: linear-gradient(155deg, var(--honey-bright), var(--honey));
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 8px 20px rgba(179, 106, 0, 0.35); }
+  50% { box-shadow: 0 8px 28px rgba(179, 106, 0, 0.55); }
+}

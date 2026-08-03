@@ -1,0 +1,99 @@
+.details {
+  text-align: center;
+}
+
+.details-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.1rem;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.details-intro h2 {
+  font-size: clamp(1.8rem, 4.5vw, 2.4rem);
+}
+
+.details-text {
+  color: var(--charcoal-soft);
+  font-size: 1.05rem;
+}
+
+.date-card {
+  margin: 3rem auto 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 2rem;
+  background: var(--cream-deep);
+  border: 1px solid rgba(179, 106, 0, 0.18);
+  border-radius: 20px;
+  padding: 1.6rem 2.4rem;
+}
+
+.date-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.1;
+}
+
+.date-num {
+  font-family: var(--font-display);
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: var(--honey-deep);
+}
+
+.date-month {
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.date-year {
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+.date-divider {
+  width: 1px;
+  height: 52px;
+  background: rgba(36, 27, 18, 0.15);
+}
+
+.date-time {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  text-align: left;
+}
+
+.date-time-label {
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.date-time-value {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .date-card {
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 1.6rem;
+  }
+  .date-divider {
+    width: 52px;
+    height: 1px;
+  }
+  .date-time {
+    text-align: center;
+  }
+}

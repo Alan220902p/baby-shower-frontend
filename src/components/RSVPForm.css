@@ -1,0 +1,96 @@
+.rsvp {
+  text-align: center;
+}
+
+.rsvp-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  align-items: center;
+  max-width: 480px;
+  margin: 0 auto 2.6rem;
+}
+
+.rsvp-header p {
+  color: var(--charcoal-soft);
+}
+
+.rsvp-form {
+  max-width: 460px;
+  margin: 0 auto;
+  background: var(--cream-deep);
+  border-radius: 24px;
+  padding: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  text-align: left;
+  border: 1px solid rgba(179, 106, 0, 0.16);
+}
+
+.rsvp-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--charcoal-soft);
+}
+
+.rsvp-form input,
+.rsvp-form textarea {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  border: 1.5px solid rgba(36, 27, 18, 0.15);
+  background: var(--cream);
+  color: var(--ink);
+  resize: vertical;
+}
+
+.rsvp-form input:focus,
+.rsvp-form textarea:focus {
+  outline: 2px solid var(--honey);
+  outline-offset: 1px;
+  border-color: var(--honey);
+}
+
+.rsvp-form button {
+  margin-top: 0.4rem;
+}
+
+.rsvp-form button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.rsvp-error {
+  color: #B3261E;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.rsvp-success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.rsvp-success .hex-icon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  background: linear-gradient(155deg, var(--honey-bright), var(--honey));
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.rsvp-success p {
+  color: var(--charcoal-soft);
+}
