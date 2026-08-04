@@ -10,6 +10,25 @@
   margin-bottom: 3rem;
 }
 
+.gallery-bee-1 {
+  top: 2%;
+  left: 4%;
+  animation-delay: 0.4s;
+}
+
+.gallery-bee-2 {
+  top: 4%;
+  right: 5%;
+  font-size: 1.15rem;
+  animation-delay: 2.8s;
+}
+
+@media (max-width: 480px) {
+  .gallery-bee-2 {
+    display: none;
+  }
+}
+
 .honeycomb-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

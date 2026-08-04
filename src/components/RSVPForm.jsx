@@ -33,6 +33,8 @@ export default function RSVPForm() {
   if (status === 'success') {
     return (
       <section className="section rsvp" id="rsvp">
+        <span aria-hidden="true" className="bee-deco rsvp-bee-1">🐝</span>
+        <span aria-hidden="true" className="bee-deco rsvp-bee-2">🐝</span>
         <div className="rsvp-success">
           <div className="hex-icon">🐝</div>
           <h2>¡Gracias por confirmar!</h2>
@@ -44,6 +46,8 @@ export default function RSVPForm() {
 
   return (
     <section className="section rsvp" id="rsvp">
+      <span aria-hidden="true" className="bee-deco rsvp-bee-1">🐝</span>
+      <span aria-hidden="true" className="bee-deco rsvp-bee-2">🐝</span>
       <div className="rsvp-header">
         <span className="eyebrow">Confirma tu asistencia</span>
         <h2>¿Nos acompañas?</h2>

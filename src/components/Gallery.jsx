@@ -9,6 +9,8 @@ const photos = [foto1, foto2, foto3, foto4]
 export default function Gallery() {
   return (
     <section className="section gallery" id="galeria">
+      <span aria-hidden="true" className="bee-deco gallery-bee-1">🐝</span>
+      <span aria-hidden="true" className="bee-deco gallery-bee-2">🐝</span>
       <div className="gallery-header">
         <span className="eyebrow">El panal</span>
         <h2>Un vistazo al lugar</h2>

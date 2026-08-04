@@ -6,6 +6,29 @@
   gap: 1.1rem;
 }
 
+.gifts-heading {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.gifts-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(124, 139, 93, 0.12);
+  border: 1px solid rgba(124, 139, 93, 0.4);
+  color: var(--sage);
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
 .gifts-text {
   max-width: 480px;
   color: var(--charcoal-soft);

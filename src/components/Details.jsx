@@ -8,15 +8,22 @@ export default function Details() {
         <span className="eyebrow">Con mucha ilusión</span>
         <h2>Nos encantaría celebrar contigo</h2>
         <p className="details-text">
-          Como las abejas cuidan su panal, nosotros esperamos con amor la llegada
-          de nuestro bebé. Queremos compartir contigo esta dulce espera en una
-          tarde llena de cariño, juegos y mucha miel.
+          🍯 Con mucha emoción queremos compartir contigo uno de los momentos
+          más especiales de nuestras vidas.
+          <br />
+          <span className="details-text-emoji">💛</span>
+          <br />
+          Nos llenaría de alegría que nos acompañaras a celebrar la próxima
+          llegada de nuestro bebé. 👶
         </p>
       </div>
 
       <div className="hex-divider"><span /><span /><span /></div>
 
       <Countdown />
+
+      <span aria-hidden="true" className="bee-deco details-bee-1">🐝</span>
+      <span aria-hidden="true" className="bee-deco details-bee-2">🐝</span>
 
       <div className="date-card">
         <div className="date-block">

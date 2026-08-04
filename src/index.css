@@ -158,6 +158,29 @@ button {
   color: var(--cream);
 }
 
+.bee-deco {
+  position: absolute;
+  font-size: 1.3rem;
+  line-height: 1;
+  pointer-events: none;
+  filter: drop-shadow(0 4px 8px rgba(36, 27, 18, 0.18));
+  animation: bee-drift 9s ease-in-out infinite;
+  z-index: 0;
+}
+
+@keyframes bee-drift {
+  0%, 100% { transform: translate(0, 0) rotate(-4deg); }
+  25% { transform: translate(14px, -12px) rotate(6deg); }
+  50% { transform: translate(-6px, 8px) rotate(-2deg); }
+  75% { transform: translate(10px, 14px) rotate(4deg); }
+}
+
+@media (max-width: 640px) {
+  .bee-deco {
+    font-size: 1rem;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.01ms !important;

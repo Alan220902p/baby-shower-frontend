@@ -3,6 +3,25 @@
   justify-content: center;
 }
 
+.location-bee-1 {
+  top: 8%;
+  left: 6%;
+  animation-delay: 1.2s;
+}
+
+.location-bee-2 {
+  bottom: 10%;
+  right: 5%;
+  font-size: 1.15rem;
+  animation-delay: 3.6s;
+}
+
+@media (max-width: 480px) {
+  .location-bee-1 {
+    display: none;
+  }
+}
+
 .location-card {
   width: 100%;
   max-width: 520px;

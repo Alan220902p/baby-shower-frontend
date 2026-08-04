@@ -20,6 +20,31 @@
   font-size: 1.05rem;
 }
 
+.details-text-emoji {
+  display: inline-block;
+  margin: 0.35rem 0;
+  font-size: 1.15rem;
+}
+
+.details-bee-1 {
+  top: 6%;
+  right: 4%;
+  animation-delay: 0.8s;
+}
+
+.details-bee-2 {
+  bottom: 8%;
+  left: 3%;
+  font-size: 1.05rem;
+  animation-delay: 3s;
+}
+
+@media (max-width: 480px) {
+  .details-bee-2 {
+    display: none;
+  }
+}
+
 .date-card {
   margin: 3rem auto 0;
   display: inline-flex;

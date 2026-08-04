@@ -6,10 +6,13 @@ export default function Gifts() {
   return (
     <section className="section gifts" id="regalos">
       <span className="eyebrow">Mesa de regalos</span>
-      <h2>Un dulce detalle</h2>
+      <div className="gifts-heading">
+        <h2>Un dulce detalle</h2>
+        <span className="gifts-badge">Opcional</span>
+      </div>
       <p className="gifts-text">
-        Tu presencia es nuestro mejor regalo. Si deseas tener un detalle con
-        nosotros, preparamos una mesa de regalos en Amazon.
+        Tu presencia en este día es más que suficiente. Dejamos aquí algunas
+        ideas en Amazon, únicamente por si te gustaría sumar un detalle.
       </p>
       <a
         className="btn btn-outline"

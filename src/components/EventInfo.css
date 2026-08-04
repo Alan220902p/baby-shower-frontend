@@ -1,0 +1,78 @@
+.event-info {
+  display: flex;
+  justify-content: center;
+}
+
+.event-info-card {
+  width: 100%;
+  max-width: 560px;
+  background: var(--cream-deep);
+  border: 1px solid rgba(179, 106, 0, 0.18);
+  border-radius: 28px;
+  padding: 3rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.event-info-card h2 {
+  font-size: clamp(1.6rem, 4.5vw, 2.1rem);
+}
+
+.event-info-text {
+  color: var(--charcoal-soft);
+  font-size: 1.02rem;
+}
+
+.event-info-chips {
+  list-style: none;
+  margin: 0.4rem 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.event-info-chips li {
+  background: rgba(217, 142, 4, 0.12);
+  border: 1px solid rgba(217, 142, 4, 0.35);
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--honey-deep);
+}
+
+.event-info-note {
+  margin-top: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.event-info-note-title {
+  font-family: var(--font-display);
+  font-style: italic;
+  color: var(--charcoal);
+  font-size: 1.05rem;
+}
+
+.event-info-note p:last-child {
+  color: var(--charcoal-soft);
+  font-size: 0.98rem;
+}
+
+@media (max-width: 480px) {
+  .event-info-card {
+    padding: 2.4rem 1.4rem;
+    border-radius: 22px;
+  }
+
+  .event-info-chips li {
+    font-size: 0.82rem;
+    padding: 0.45rem 0.85rem;
+  }
+}
