@@ -68,6 +68,10 @@
   gap: 0.9rem;
 }
 
+.hero-hex .eyebrow {
+  margin-top: clamp(1rem, 5vh, 2.25rem);
+}
+
 .hero-title {
   font-size: clamp(2.6rem, 8vw, 4.6rem);
   line-height: 1.05;
@@ -101,7 +105,8 @@
   font-size: 0.8rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  opacity: 0.85;
+  opacity: 0.95;
+  text-shadow: 0 2px 6px rgba(36, 27, 18, 0.6), 0 1px 3px rgba(36, 27, 18, 0.5);
 }
 
 .hero-scroll-hex {
@@ -110,8 +115,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(242, 183, 5, 0.16);
-  border: 1px solid rgba(242, 183, 5, 0.5);
+  color: var(--charcoal);
+  font-weight: 700;
+  background: linear-gradient(155deg, var(--honey-bright), var(--honey));
+  border: 1.5px solid rgba(36, 27, 18, 0.22);
+  box-shadow: 0 6px 16px rgba(36, 27, 18, 0.35);
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
   animation: bob 2.4s ease-in-out infinite;
 }
