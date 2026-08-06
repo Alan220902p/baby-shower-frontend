@@ -3,6 +3,25 @@
   justify-content: center;
 }
 
+.event-info-bee-1 {
+  top: 4%;
+  left: 4%;
+  animation-delay: 1.8s;
+}
+
+.event-info-bee-2 {
+  bottom: 5%;
+  right: 4%;
+  font-size: 1.05rem;
+  animation-delay: 4.6s;
+}
+
+@media (max-width: 480px) {
+  .event-info-bee-2 {
+    display: none;
+  }
+}
+
 .event-info-card {
   width: 100%;
   max-width: 560px;

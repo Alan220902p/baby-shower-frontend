@@ -22,3 +22,22 @@
   color: var(--honey-deep);
   letter-spacing: 0.02em;
 }
+
+.closing-bee-1 {
+  top: 6%;
+  left: 6%;
+  animation-delay: 0.9s;
+}
+
+.closing-bee-2 {
+  bottom: 8%;
+  right: 6%;
+  font-size: 1.1rem;
+  animation-delay: 3.8s;
+}
+
+@media (max-width: 480px) {
+  .closing-bee-2 {
+    display: none;
+  }
+}

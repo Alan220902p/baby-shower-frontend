@@ -5,6 +5,8 @@ const CHIPS = ['✨ Juegos', '🎁 Sorpresas', '🍽️ Deliciosa comida', '😂
 export default function EventInfo() {
   return (
     <section className="section event-info" id="aviso">
+      <span aria-hidden="true" className="bee-deco event-info-bee-1">🐝</span>
+      <span aria-hidden="true" className="bee-deco event-info-bee-2">🐝</span>
       <div className="event-info-card">
         <span className="eyebrow">Aviso importante</span>
         <h2>🏖️ ¡Prepárate para disfrutar!</h2>

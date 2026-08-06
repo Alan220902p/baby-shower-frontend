@@ -16,8 +16,16 @@
   animation-delay: 3.6s;
 }
 
+.location-bee-3 {
+  top: 6%;
+  right: 4%;
+  font-size: 0.95rem;
+  animation-delay: 5s;
+}
+
 @media (max-width: 480px) {
-  .location-bee-1 {
+  .location-bee-1,
+  .location-bee-3 {
     display: none;
   }
 }

@@ -10,6 +10,25 @@
   margin-bottom: 3rem;
 }
 
+.itinerary-bee-1 {
+  top: 2%;
+  right: 4%;
+  animation-delay: 1s;
+}
+
+.itinerary-bee-2 {
+  bottom: 4%;
+  left: 3%;
+  font-size: 1.05rem;
+  animation-delay: 4s;
+}
+
+@media (max-width: 480px) {
+  .itinerary-bee-2 {
+    display: none;
+  }
+}
+
 .itinerary-header h2 {
   font-size: clamp(1.8rem, 4.5vw, 2.4rem);
 }

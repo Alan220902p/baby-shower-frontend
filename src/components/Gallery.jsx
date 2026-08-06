@@ -11,6 +11,7 @@ export default function Gallery() {
     <section className="section gallery" id="galeria">
       <span aria-hidden="true" className="bee-deco gallery-bee-1">🐝</span>
       <span aria-hidden="true" className="bee-deco gallery-bee-2">🐝</span>
+      <span aria-hidden="true" className="bee-deco gallery-bee-3">🐝</span>
       <div className="gallery-header">
         <span className="eyebrow">El panal</span>
         <h2>Un vistazo al lugar</h2>

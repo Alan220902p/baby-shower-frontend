@@ -39,6 +39,13 @@
   animation-delay: 3s;
 }
 
+.details-bee-3 {
+  top: 2%;
+  left: 5%;
+  font-size: 1.1rem;
+  animation-delay: 2.2s;
+}
+
 @media (max-width: 480px) {
   .details-bee-2 {
     display: none;

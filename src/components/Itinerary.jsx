@@ -11,6 +11,8 @@ const EVENTS = [
 export default function Itinerary() {
   return (
     <section className="section itinerary" id="itinerario">
+      <span aria-hidden="true" className="bee-deco itinerary-bee-1">🐝</span>
+      <span aria-hidden="true" className="bee-deco itinerary-bee-2">🐝</span>
       <div className="itinerary-header">
         <span className="eyebrow">El plan</span>
         <h2>Itinerario</h2>

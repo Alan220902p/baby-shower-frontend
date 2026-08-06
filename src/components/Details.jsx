@@ -24,6 +24,7 @@ export default function Details() {
 
       <span aria-hidden="true" className="bee-deco details-bee-1">🐝</span>
       <span aria-hidden="true" className="bee-deco details-bee-2">🐝</span>
+      <span aria-hidden="true" className="bee-deco details-bee-3">🐝</span>
 
       <div className="date-card">
         <div className="date-block">

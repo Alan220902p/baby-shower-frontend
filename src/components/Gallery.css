@@ -23,8 +23,16 @@
   animation-delay: 2.8s;
 }
 
+.gallery-bee-3 {
+  bottom: 4%;
+  left: 3%;
+  font-size: 1.05rem;
+  animation-delay: 4.2s;
+}
+
 @media (max-width: 480px) {
-  .gallery-bee-2 {
+  .gallery-bee-2,
+  .gallery-bee-3 {
     display: none;
   }
 }

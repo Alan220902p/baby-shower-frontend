@@ -42,6 +42,8 @@
 .bee-1 { top: 18%; left: 12%; animation-delay: 0s; }
 .bee-2 { top: 30%; right: 15%; animation-delay: 2.2s; font-size: 1.2rem; }
 .bee-3 { bottom: 26%; left: 20%; animation-delay: 4.5s; font-size: 1.35rem; }
+.bee-4 { top: 10%; right: 9%; animation-delay: 1.3s; font-size: 1.1rem; }
+.bee-5 { bottom: 16%; right: 26%; animation-delay: 5.6s; font-size: 1.3rem; }
 
 @keyframes drift {
   0%, 100% { transform: translate(0, 0) rotate(-4deg); }

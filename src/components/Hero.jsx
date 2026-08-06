@@ -18,6 +18,8 @@ export default function Hero() {
         <span className="bee bee-1">🐝</span>
         <span className="bee bee-2">🐝</span>
         <span className="bee bee-3">🐝</span>
+        <span className="bee bee-4">🐝</span>
+        <span className="bee bee-5">🐝</span>
       </div>
 
       <div className="hero-content">

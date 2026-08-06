@@ -5,6 +5,8 @@ const AMAZON_URL = 'https://www.amazon.com.mx/baby-reg/valeri-lopez-octubre-2026
 export default function Gifts() {
   return (
     <section className="section gifts" id="regalos">
+      <span aria-hidden="true" className="bee-deco gifts-bee-1">🐝</span>
+      <span aria-hidden="true" className="bee-deco gifts-bee-2">🐝</span>
       <span className="eyebrow">Mesa de regalos</span>
       <div className="gifts-heading">
         <h2>Un dulce detalle</h2>

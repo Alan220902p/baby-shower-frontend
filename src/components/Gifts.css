@@ -38,3 +38,22 @@
 .gifts .btn {
   margin-top: 0.6rem;
 }
+
+.gifts-bee-1 {
+  top: 4%;
+  left: 4%;
+  animation-delay: 0.6s;
+}
+
+.gifts-bee-2 {
+  bottom: 6%;
+  right: 4%;
+  font-size: 1.1rem;
+  animation-delay: 3.4s;
+}
+
+@media (max-width: 480px) {
+  .gifts-bee-2 {
+    display: none;
+  }
+}

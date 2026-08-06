@@ -7,6 +7,7 @@ export default function Location() {
     <section className="section location" id="ubicacion">
       <span aria-hidden="true" className="bee-deco location-bee-1">🐝</span>
       <span aria-hidden="true" className="bee-deco location-bee-2">🐝</span>
+      <span aria-hidden="true" className="bee-deco location-bee-3">🐝</span>
       <div className="location-card">
         <div className="hex-icon">📍</div>
         <span className="eyebrow">El lugar</span>
