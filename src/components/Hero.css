@@ -69,7 +69,7 @@
 }
 
 .hero-hex .eyebrow {
-  margin-top: clamp(1rem, 5vh, 2.25rem);
+  margin-top: clamp(2rem, 10vh, 4.5rem);
 }
 
 .hero-title {
